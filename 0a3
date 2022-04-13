@@ -1,0 +1,12 @@
+print ("digite um número entre 0 e 3")
+n=int(input())
+if n<0 or n>3:
+  print ("burro!")
+elif n==0:
+  print ("zero")
+elif n==1:
+  print ("um")
+elif n==2:
+  print ("dois")
+else:
+  print ("três")
